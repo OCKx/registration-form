@@ -1,0 +1,176 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  background-repeat: none;
+  /* background-size: cover; */
+  background-image: url(./img/5026563.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+form {
+  padding: 20px;
+}
+
+.separater {
+  border-top: 1.4px solid #4caf4fa7;
+}
+
+.form {
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.8) 50%
+  );
+  padding: 320px 350px 320px 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 300px;
+  height: 500px;
+  font-size: 10px;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #0c0c0c;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+  width: 900px;
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1.5px solid #4e4f50;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+  border: 2px solid black;
+}
+
+button[type="button"],
+button[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="button"]:hover,
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+button[type="button"] {
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  float: right;
+}
+
+#page2 button[type="button"] {
+  float: left;
+}
+
+/* VIEW CSS */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: 280px;
+  }
+
+  input,
+  select,
+  textarea {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    max-width: 900px;
+  }
+}
